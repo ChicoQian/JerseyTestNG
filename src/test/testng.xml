@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+    <test name="test12" preserve-order="true" verbose="8">
+<parameter name="test1" value="Tank" />
+
+        <classes>
+            <class name="test.TestNGLearn1">
+                <methods>
+                	<include name="ParaTest" />
+                    <include name="TestNgLearn3" />
+                    <include name="TestNgLearn1" />
+                    <include name="TestNgLearn2" />
+                </methods>
+            </class>
+            <class name="test.ExceptionTest">
+				<methods>
+                    <include name="testException" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
